@@ -1,0 +1,90 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(page-a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    position: absolute;
+    top: 10%;
+    left: 43%
+    
+
+}
+.tagline{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    top: 38%;
+    left: 50%;
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 50px;
+}
+.taglinedua{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #ff6000;
+    font-family: 'Pacifico';
+    font-size: 50px;
+}
+.taglinetiga{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.buton{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 73%;
+    left: 50%;
+    
+}
+.btn-i{
+    border: none;
+    background: none;
+    width: 100px;
+    padding:  12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #ff6000;
+    font-family: 'Pacifico';
+    margin: 2px 1px;
+    border: 2px solid #ff6000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-j{
+    border: none;
+    background-color: #ff6000;
+    width: 100px;
+    padding:  12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-family: 'Pacifico';
+    margin: 2px 1px;
+    border: 2px solid #ff6000;
+    border-radius: 8px;
+    cursor: pointer;
+}
